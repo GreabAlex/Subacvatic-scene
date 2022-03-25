@@ -1,0 +1,50 @@
+﻿  Camera.cpp
+  main.cpp
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(147,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(148,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(152,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(153,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(155,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(156,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(222,15): warning C4305: '+=': truncation from 'double' to 'float'
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(227,15): warning C4305: '-=': truncation from 'double' to 'float'
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(219,8): warning C4101: 'miscare': unreferenced local variable
+D:\proiectpg\Laboratoare\Laboratoare\main.cpp(292,33): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  Mesh.cpp
+D:\proiectpg\Laboratoare\Laboratoare\Mesh.cpp(32,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model3D.cpp
+D:\proiectpg\Laboratoare\Laboratoare\Model3D.cpp(89,40): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+D:\proiectpg\Laboratoare\Laboratoare\Model3D.cpp(97,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Shader.cpp
+  SkyBox.cpp
+  Source.cpp
+  stb_image.cpp
+  stdafx.cpp
+  tiny_obj_loader.cpp
+  stb_image.c
+D:\proiectpg\Laboratoare\Laboratoare\stb_image.c(119,1): warning C4028: formal parameter 2 different from declaration
+D:\proiectpg\Laboratoare\Laboratoare\stb_image.c(429,1): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\proiectpg\Laboratoare\Laboratoare\stb_image.c(442,1): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+x64\Release\stb_image.obj : warning LNK4042: object specified more than once; extras ignored
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1816 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+LINK : warning LNK4286: symbol '__glewUniform1i' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindBuffer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewVertexAttribPointer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindVertexArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewEnableVertexAttribArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGenBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGenVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewActiveTexture' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBufferData' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGetUniformLocation' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewDeleteBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewGenerateMipmap' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewDeleteVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+  Laboratoare.vcxproj -> D:\proiectpg\Laboratoare\x64\Release\Laboratoare.exe
